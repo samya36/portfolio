@@ -8,11 +8,8 @@ export function Hero() {
           AI Ops · Product · Engineering
         </p>
         <h1 className="mb-8 fade-up d1">
-          <span className="gradient-text text-7xl md:text-8xl font-extrabold tracking-tight block">
-            严美红
-          </span>
-          <span className="text-txt-secondary text-3xl md:text-4xl font-light mt-4 block">
-            Yan Meihong
+          <span className="gradient-text text-6xl md:text-8xl font-extrabold tracking-tight block">
+            Meihong Yan
           </span>
         </h1>
         <p className="text-xl md:text-2xl text-txt-secondary leading-relaxed mb-14 fade-up d2 max-w-xl mx-auto">

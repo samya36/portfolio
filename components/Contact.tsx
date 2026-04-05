@@ -38,7 +38,7 @@ export function Contact() {
           </a>
         </div>
         <p className="mt-20 text-txt-muted text-xs">
-          © 2026 严美红. Built with Bun + React + Tailwind.
+          © 2026 Meihong Yan. Built with Bun + React + Tailwind.
         </p>
       </div>
     </section>

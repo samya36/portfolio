@@ -22,13 +22,13 @@ export function Nav() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled || open
-          ? "bg-bg-darkest/95 backdrop-blur-xl border-b border-bdr"
+          ? "bg-white/90 backdrop-blur-xl border-b border-bdr shadow-sm"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="text-xl font-bold tracking-tight">
-          <span className="gradient-text">MH</span>
+          <span className="gradient-text">MY</span>
         </a>
         {/* Desktop */}
         <div className="hidden md:flex gap-8">
@@ -59,7 +59,7 @@ export function Nav() {
       </div>
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-bdr bg-bg-darkest/95 backdrop-blur-xl">
+        <div className="md:hidden border-t border-bdr bg-white/95 backdrop-blur-xl">
           <div className="px-6 py-4 flex flex-col gap-4">
             {links.map((link) => (
               <a
