@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "bun --hot ./index.ts",
-    "build": "bun build ./index.html --outdir ./dist"
+    "build": "bun run build.ts"
   },
   "dependencies": {
     "react": "^19",
